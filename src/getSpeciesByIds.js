@@ -6,7 +6,7 @@ function getSpeciesByIds(...ids) {
   const teste = species.filter((element) => ids.includes(element.id));
   return teste;
 }
-
+// resolvido com a ajuda da nat na monitoria
 // usamos o includes para verificar se o parâmetro passado (o array ids) inclui a id do elemento que está sendo iterado
 
 module.exports = getSpeciesByIds;
