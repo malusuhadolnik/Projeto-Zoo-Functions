@@ -60,4 +60,3 @@ describe('Testes da função HandlerElephants', () => {
     // expect(actual6).toEqual(expected6);
   });
 });
-// [ 'id', 'name', 'popularity', 'location', 'availability', 'residents' ]
