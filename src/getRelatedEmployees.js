@@ -8,7 +8,6 @@ function isManager(id) {
 }
 
 console.log(isManager('fdb2543b-5662-46a7-badc-93d960fdc0a8'));
-// employees.some((employee) => employee.managers.some((manag) => manag === id));
 
 // O que fazer: percorrer o array employees, se em algum objeto managers incluir a ID, pegar o nome e sobrenome da pessoa
 
