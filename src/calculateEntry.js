@@ -1,4 +1,4 @@
-const { team } = require('faker/lib/locales/en');
+// const { team } = require('faker/lib/locales/en');
 const { prices } = require('../data/zoo_data');
 const data = require('../data/zoo_data');
 // As duas funções recebem um array no seguinte formato:
@@ -48,6 +48,6 @@ function calculateEntry(entrants) {
 
 console.log(calculateEntry(mockObject));
 console.log(calculateEntry());
-console.log(calculateEntry({}));
+console.log(calculateEntry(0));
 
 module.exports = { calculateEntry, countEntrants };
