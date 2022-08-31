@@ -89,17 +89,3 @@ function getSchedule(scheduleTarget) {
 // console.log(getSchedule('Tuesday'));
 // console.log(getSchedule('Freja'));
 module.exports = getSchedule;
-
-// Retorne um array com os dias da semana em que um animal está disponível para visitação caso o parâmetro da função seja um animal. Por exemplo: [ 'Tuesday', 'Thursday', 'Saturday', 'Sunday' ];
-// A função, caso receba um único dia por parâmetro, deverá retornar os horários para aquele dia e quais animais estarão disponíveis.
-
-// Retorne todos os horários disponíveis para cada dia da semana caso a função:
-// - não receba parâmetro;
-// - o parâmetro passado para a função não seja um animal ou um dia;
-
-// Para isso:
-// Crie um objeto e adicione todos os dias da semana como chave;
-// Os valores de cada dia da semana deve ser um objeto, possuindo as chaves officeHour e exhibition:
-
-// officeHour deve possuir o texto com o horário que o zoológico abre e fecha naquele dia da semana;
-// exhibition deve possuir um array com o nome de todos os animais disponíveis para visitação naquele dia da semana.
