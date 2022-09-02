@@ -3,6 +3,8 @@ const { hours } = require('../data/zoo_data');
 const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 const dayError = 'The day must be valid. Example: Monday';
 
+console.log(('09:00-PM').length);
+
 const isStringRepresentNumber = (string, what) => {
   if (!/^\d+$/.test(string)) {
     throw new Error(`The ${what} should represent a number`);
